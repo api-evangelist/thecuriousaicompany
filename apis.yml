@@ -1,4 +1,16 @@
 aid: thecuriousaicompany
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/thecuriousaicompany.png
 name: thecuriousaicompany
 description: thecuriousaicompany is a company surfaced as a portfolio company of balderton-capital and
   added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
@@ -12,7 +24,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 apis: []
@@ -24,3 +36,13 @@ maintainers:
 common:
 - type: Website
   url: https://thecuriousaicompany.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: Domain thecuriousaicompany.com is registered (Amazon Registrar, AWS DNS) but
+    has no A/CNAME record on the apex or common subdomains (www/docs/api/app) and no
+    MX/TXT; it serves no website, docs, or API. No reachable surface to enrich; no
+    fabrication. WebSearch budget was exhausted this session but DNS/whois/HTTP probes
+    ran successfully.
